@@ -722,7 +722,7 @@ span {
     margin-left: -15px;
 }
 #contact textarea {
-    width: 535px !important;
+    max-width: 535px !important;
     background-color: #d4d4d4 !important;
     border-radius: 0 !important;
 }
@@ -763,6 +763,9 @@ footer p {
     font-size: 14px;
     padding: 0;
     margin: 0;
+}
+footer .developer {
+    float: right;
 }
 
 /* animation is taken from https://gist.github.com/gubi/8483199 */
@@ -829,5 +832,28 @@ footer p {
   .navbar-nav .nav-item+.nav-item,
   .navbar-nav .nav-link + .nav-link {
     margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    #buy-theme .container {
+        text-align: center;
+    }
+    #buy-theme h1 {
+        line-height: 1;
+        padding-bottom: 15px;
+    }
+    #buy-theme .btn-purchase {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 0;
+        float: none;
+        margin-bottom: 15px;
+    }
+    footer .container {
+     text-align: center;
+  }
+  footer .developer {
+    float: none;
   }
 }
