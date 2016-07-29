@@ -12,7 +12,8 @@ jQuery(document).ready(function() {
          });
  
       // CALL FILTER FUNCTION IF ANY FILTER HAS BEEN CLICKED
-      jQuery('.filter').click(function() {            api.megafilter(jQuery(this).data('category'));  
+      jQuery('.filter').click(function() { 
+          api.megafilter(jQuery(this).data('category'));  
       });
       
       
@@ -24,7 +25,7 @@ jQuery(document).ready(function() {
                          media : {}
                         }
         });
+        
    });
    
-
 

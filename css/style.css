@@ -58,6 +58,10 @@ i:hover {
 
 
 /*========= Navbar =========*/
+.navbar {
+    padding: 0;
+    border-radius: 0;
+}
 .navbar-brand {
   float: none;
 }
@@ -71,6 +75,7 @@ i:hover {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #43a906;
 }
+
 /*========== Home Page Slider ===========*/
 .carousel {
   position: static;
@@ -813,6 +818,7 @@ footer .developer {
     100% { top: 0; }
 }
 
+
 /*============ Media Query =============*/
 @media screen and (max-width: 700px) {
 	.left {
@@ -841,9 +847,6 @@ footer .developer {
 
 @media screen and (max-width: 480px) {
     #top-bar {
-        display: none;
-    }
-    #home-slider .carousel-indicators {
         display: none;
     }
     #buy-theme .container {
