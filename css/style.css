@@ -63,7 +63,7 @@ i:hover {
 }
 .navbar-nav .nav-item {
   font-family: 'Roboto Slab', serif;
-  padding-top: 2.5%; 
+  padding-top: 3.3%;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #000;
@@ -840,6 +840,12 @@ footer .developer {
 }
 
 @media screen and (max-width: 480px) {
+    #top-bar {
+        display: none;
+    }
+    #home-slider .carousel-indicators {
+        display: none;
+    }
     #buy-theme .container {
         text-align: center;
     }
