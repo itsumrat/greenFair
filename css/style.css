@@ -68,7 +68,9 @@ i:hover {
 .navbar-light .navbar-nav .nav-link {
     color: #000;
 }
-
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #43a906;
+}
 /*========== Home Page Slider ===========*/
 .carousel {
   position: static;
@@ -503,6 +505,7 @@ i.fa.fa-pagelines {
     background-color: #101410;
     padding-top: 50px;
     padding-bottom: 20px;
+    text-align: center;
 }
 span {
     color: #43a906;
@@ -546,7 +549,7 @@ span {
   top: 0;
   border-radius: 100px;
 }
-#testimonial .testimonial-item p {
+#testimonial .testimonial-item .statement {
   display: flex;
   font-size: 16px;
   line-height: 26px;
@@ -565,6 +568,7 @@ span {
 }
 .testimonial-item {
     background-color: #fff;
+    color: #fff;
 }
 
 /*========= Blog =========*/
